@@ -1,2 +1,2 @@
 # Cv 
-A simple cv to show my design.# first-app
+A simple cv to show my design.
