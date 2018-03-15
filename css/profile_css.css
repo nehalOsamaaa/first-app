@@ -1,0 +1,543 @@
+/* start rules for all site*/
+body
+{
+	background-color:#FFF;
+	height:4000px;
+}
+
+.continer
+{
+	width:1170px;
+	margin:auto;
+}
+
+.clear-fix
+{
+	clear:both; /* been ay etnen float b3melha */
+}
+/* end rules for all site */
+
+/* start header style */
+
+.Header .slider 
+{
+	background:#CCC;
+	margin:0;
+	background-image:url('../image/intro.jpg');
+	height:500px;
+	background-size:cover;
+	
+}
+.Header .slider .intro
+{
+	padding-top:200px;
+	color:#78324f;
+	
+	
+}
+.Header .slider h2
+{
+	width:340px; /* da 3ashan a5ly bordar ad el kelma */
+	margin:0; /* 3ashan kan fe masfa mn fo2 w 3ashan agebo fe el nos */
+	font-size:50px;
+	border-top:4px solid #b27484;
+	border-bottom:4px solid #b27484;
+	padding: 10px 0; /* da 3ashan a5ly fe masfa ben el bordar w el kelma */
+	font-family: cursive;
+
+	
+}
+
+.Header .slider button
+{	
+	color:#78324f;
+	font-family: cursive;
+	font-size:16px;
+	font-weight:bold;
+	background:none; /* 3ashan yb2a el sora bayna gowa el button */
+	width:130px;
+	margin: 30px 86px; /* 3ashan ykon fe far2 ben el web desginer w el button */
+	padding:7px 0; /* 3ashan el kelma matkonsh laz2a fe el border bta3 el button */
+	border:3px solid #b27484;
+	
+	
+}
+
+.Header .navbar
+{
+	background-color:#2d0011/*#421e2c*/;
+	color:#FFF;
+	overflow:hidden;/* 3ashan el linkat mattl3sh bara */
+
+}
+.Header .navbar h2
+{
+	float:left; /*3ashan 3ayza logo 3ala shemal */
+	
+}
+
+.Header .navbar h2 span 
+{
+	color:#e51669;
+	
+}
+.Header .navbar ul
+{
+	list-style:none;
+	padding-left:0;
+	float:right;
+	
+}
+
+.Header .navbar li
+{
+	float:left;
+	padding:10px;
+}
+
+.Header .navbar li a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.Header .navbar li a:hover,
+.Header .navbar li a:active
+{
+	color:#e51669;
+}
+/* End header style */
+
+/* Start moomzyzat */
+
+.features
+{
+	overflow:hidden;
+	
+}
+
+.features .feat
+{
+	float:left;
+	width:33.33333%;
+	height:150px;
+	background-color:#FFF;
+	margin:40px 0 50px 0;
+}
+.features .feat h2{ color:#555;}
+.features .feat p
+{
+	color:#666;
+	line-height:1.5;
+	text-align:justify;
+	padding :0 40px 0 0;
+	
+	}
+
+/* END moomzyzat */
+
+/* Start about me */
+.about_me 
+{
+	overflow:hidden;
+	background-color:#F2F2F2;
+	
+	
+}
+.about_me .images
+{
+	float :left;
+	width:40%;
+}
+.about_me .images img
+{
+	width:100%;
+}
+.about_me .info
+{
+	float: left;
+	width:60%;
+}
+.about_me .info h2
+{
+	color:#555;
+	margin:25px 0 20px 50px;
+}
+.about_me .info p
+{
+	color:#666;
+	line-height:1.5;
+	text-align:justify;
+}
+.about_me .info > p
+{
+	margin:0 0 10px 50px;
+}
+.about_me .info > p:last-of-type /* y3ne a5r pargraph zawed fe el 7agat dy */
+{
+	margin-top:15px;
+}
+.about_me .info .icons
+{
+	overflow:hidden;
+	margin:20px 0 0 50px;
+}
+.about_me .info .icons .content 
+{
+	overflow:hidden;
+	float:left;
+	width:50%;
+	min-height:100px;
+}
+.about_me .info .icons .content .icon
+{
+	float:left;
+	width:12%;
+	margin-right:8%;
+	
+}
+.about_me .info .icons .content .icon img
+{
+	max-width:100%;
+	margin-top:10px;
+}
+.about_me .info .icons .content .text
+{
+	float:left;
+	width:80%;
+	
+}
+.about_me .info .icons p
+{
+	padding-right:20px;
+	
+}
+.about_me .info .icons h3
+{
+	color:#555;
+}
+
+/* End about me */
+
+/*Start my skills */
+ .skills
+ {
+	background-color:#FFF;
+	overflow:hidden;
+	padding:30px;
+ }
+ .skills .my-skills,
+.skills .precentage
+ {
+	float:left;
+	width:50%;
+ }
+ 
+ .skills .my-skills h2
+{
+	color:#555;
+	margin:25px 50px 20px 0;
+}
+ .skills .my-skills p
+{
+	color:#666;
+	line-height:1.5;
+	text-align:justify;
+}
+ .skills .my-skills > p
+{
+	margin:0 50px 10px 0;
+}
+.skills .my-skills > p:last-of-type /* y3ne a5r pargraph zawed fe el 7agat dy */
+{
+	margin-top:15px;
+}
+.skills .my-skills button
+{	
+	color:#78324f;
+	font-size:17px;
+	font-weight:bold;
+	background:none; /* 3ashan yb2a el sora bayna gowa el button */
+	width:150px;
+	margin: 30px 0; /* 3ashan ykon fe far2 ben el web desginer w el button */
+	padding:10px 15px; /* 3ashan el kelma matkonsh laz2a fe el border bta3 el button */
+	border:3px solid #b27484;
+	
+}
+.skills .precentage .nesba
+ {
+	margin:20px 20px 0 60px;
+ }
+.skills .precentage .nesba h3
+{
+	color:#555;
+	text-transform:uppercase;
+}
+.skills .precentage .nesba div
+{
+	height:30px;
+	background-color:#F2F2F2;
+}
+.skills .precentage .nesba span
+{
+	height:30px;
+	background-color:#78324f;
+	color:#FFF;
+	line-height:30px;
+	font-weight:bold;
+	text-align:right;
+	display:block;
+}
+ 
+
+/* End My skills */
+
+/*Start my resume */
+ .resume
+ {
+	background-color:#F2F2F2;
+	overflow:hidden;
+	padding:30px 0 50px ;
+	 
+ }
+ .my-resume
+ {
+	text-align:center;
+ }
+ .my-resume h2{color:#555;}
+ .my-resume p{color:#666; padding:10px 0 ; line-height:1.7;}
+ .my-resume button
+{	
+	color:#78324f;
+	font-size:17px;
+	font-weight:bold;
+	background:none; /* 3ashan yb2a el sora bayna gowa el button */
+	width:200px;
+	padding:10px 15px; /* 3ashan el kelma matkonsh laz2a fe el border bta3 el button */
+	border:3px solid #b27484;
+	
+}
+/* End My resume */
+
+/*Start my Education and exp */
+ .education
+ {
+	background-color:#FFF;
+	overflow:hidden;
+	padding:30px;
+ }
+ .education .my-education ,
+.education .degree
+ {
+	float:left;
+	width:50%;
+ }
+ 
+  .education .work-exp ,
+.education .exp
+ {
+	float:left;
+	width:50%;
+ }
+
+.education .my-education h2,
+.education .work-exp h2
+{
+	color:#555;
+	margin:25px 0 20px 0;
+}
+.education .my-education p,
+.education .work-exp p
+{
+	color:#666;
+	line-height:1.5;
+	text-align:justify;
+	padding-right:50px;
+}
+.education .my-education > p,
+.education .work-exp >p
+{
+	margin:0 0 10px 0;
+}
+.education .my-education > p:last-of-type,
+.education .work-exp > p:last-of-type  /* y3ne a5r pargraph zawed fe el 7agat dy */
+{
+	margin-top:15px;
+}
+ .education .line{margin-bottom:60px; }
+ .education hr{color:#FFF; }
+ .education .degree{padding-top:50px;}
+ .education .degree .diploma h3{color:#555;}
+ .education .degree .diploma div{color:#777;}
+ .education .degree .diploma p{color:#666;line-height:1.5;text-align:justify;margin-bottom:50px;}
+ .education .degree .diploma button
+{	
+	color:#FFF;
+	background-color:#78324f;
+	font-size:13px;
+	font-weight:bold;
+	border:3px solid #78324f;
+	margin:20px 0;
+	padding:7px 10px;	
+}
+/* End My skills */
+
+/*Start my paragraph */
+ .pargarph
+ {
+	background-color:#F2F2F2;
+	overflow:hidden;
+	padding:50px 0;
+	 
+ }
+ .my-pargarph{text-align:center;}
+ .my-pargarph q{color:#999; padding:10px 0 ; font:italic bold 18px/1.9 Arial;}
+ .my-pargarph h4{color:#666; margin-bottom:30px;}
+ .my-pargarph ul 
+ {
+	list-style:none;
+	padding-left:0; 
+	text-align:center;
+ }
+ .my-pargarph ul li 
+ {	
+	width:10px;
+	height:10px;
+	border:2px solid #78324f;
+	display:inline-block;
+	cursor:pointer; /* htb2a 3ala shakl el eid */
+	
+ }
+  .my-pargarph .online,
+  .my-pargarph ul li:hover
+   {
+	   background-color:#78324f;
+   }
+/* End My pargarph */
+
+/*Start protfolio */
+ .proto
+ {
+	background-color:#FFF;
+	overflow:hidden;
+	padding:30px 0 70px;
+	 
+ }
+ .proto .my-proto {text-align:center;}
+ .proto .my-proto h2{color:#555; padding:30px 0 20px;}
+ .proto .my-proto p{color:#666; padding-bottom:30px;}
+ 
+ .proto .links > div 
+ {
+	float: left;
+	width:33.333333%;
+	
+ }
+ .proto .links img
+ {
+	 width:92%;
+	 margin:15px;
+     padding:3px;
+	 background-color:#FFF;
+	 border:ipx solid #CCC;
+	 box-shadow:10px 10px 12px #CCC;
+ }
+ 
+
+/* End My protfolio */
+
+/* Start contact me */
+.contact
+{
+	background-color:#540a25;
+	padding:30px;
+	overflow:hidden;
+}
+.contact .info h2{ color:#EEE; padding:20px 0 5px;}
+.contact .info  p
+{
+	color:#888;
+	line-height:1.7;
+	text-align:justify;
+	padding-right:50px;	
+	padding-bottom:20px;
+}
+.contact .info  p strong
+{
+	color:#CCC;
+}
+
+.contact .info,
+.contact .formm
+{
+	width:50%;
+	float:left;
+}
+
+.contact .formm {margin:40px 0 20px;}
+.contact .formm label {margin-left:20px;display:block; color:#EEE;}
+.contact .formm input 
+{
+	margin: 20px 50px 30px;
+	background-color:#888; 
+	border:0;
+	padding:10px;
+	width:70%;
+	color:#FFF;
+}
+.contact .formm textarea
+{
+	margin: 20px 50px 30px;
+	background-color:#888; 
+	border:0;
+	padding:10px;
+	width:70%;
+	height:200px;
+	color:#FFF;
+}
+.contact .formm input[type="submit"]
+{	
+	width:30%;
+	color:#DDD;
+	background-color:#540a25;
+	font-size:14px;
+	font-weight:bold;
+	border:4px solid #888;
+	margin:20px 180px;
+	padding:7px 10px;	
+}
+
+/* End contact me */
+
+/* Start Footer */
+.footer
+{
+	background-color:#2d0011;
+	text-align:center;
+	color :#CCC;
+	padding:30px 0;
+	overflow:hidden;
+}
+.footer ul
+{
+	list-style:none;
+	padding-left:0;
+}
+.footer ul li 
+{
+	display:inline-block;
+}
+.footer ul li img
+{
+	width:24px;
+}
+
+/* End footer*/
+
+
+
+
+
+
+
+
+
